@@ -45,7 +45,7 @@ public class Main {
         DoubleCheckedLockingSingleton doubleCheckedLockingSingleton2  = DoubleCheckedLockingSingleton.getInstance();
 
        // System.out.println(doubleCheckedLockingSingleton1);
-       // System.out.println(doubleCheckedLockingSingleton2);
+       //: System.out.println(doubleCheckedLockingSingleton2);
 
 
     }
