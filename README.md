@@ -1,6 +1,1 @@
-# design-patterns
-# design-patterns
-# design-patterns
-# design-patterns
-# design-patterns
-# design-patterns
+This is my design pattern examples
