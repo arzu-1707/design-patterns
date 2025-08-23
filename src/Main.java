@@ -1,6 +1,8 @@
 import builder.BuilderDesignPattern;
+import singleton.DoubleCheckedLockingSingleton;
 import singleton.EagerSingletonPattern;
 import singleton.LazySingletonPattern;
+import singleton.ThreadSafeSingleton;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -30,6 +32,20 @@ public class Main {
 
       //  System.out.println(lazySingletonPattern1);
        // System.out.println(lazySingletonPattern2);
+
+
+        ThreadSafeSingleton threadSafeSingleton1 = ThreadSafeSingleton.getInstance();
+        ThreadSafeSingleton threadSafeSingleton2 = ThreadSafeSingleton.getInstance();
+
+      //  System.out.println(threadSafeSingleton1);
+       // System.out.println(threadSafeSingleton2);
+
+
+        DoubleCheckedLockingSingleton doubleCheckedLockingSingleton1  = DoubleCheckedLockingSingleton.getInstance();
+        DoubleCheckedLockingSingleton doubleCheckedLockingSingleton2  = DoubleCheckedLockingSingleton.getInstance();
+
+       // System.out.println(doubleCheckedLockingSingleton1);
+       // System.out.println(doubleCheckedLockingSingleton2);
 
 
     }
