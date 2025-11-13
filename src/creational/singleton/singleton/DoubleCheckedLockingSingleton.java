@@ -1,4 +1,4 @@
-package singleton;
+package creational.singleton.singleton;
 
 public class DoubleCheckedLockingSingleton {
     private static DoubleCheckedLockingSingleton instance ;

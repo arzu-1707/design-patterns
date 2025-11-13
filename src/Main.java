@@ -1,8 +1,8 @@
-import builder.BuilderDesignPattern;
-import singleton.DoubleCheckedLockingSingleton;
-import singleton.EagerSingletonPattern;
-import singleton.LazySingletonPattern;
-import singleton.ThreadSafeSingleton;
+import creational.builder.BuilderDesignPattern;
+import creational.singleton.singleton.DoubleCheckedLockingSingleton;
+import creational.singleton.singleton.EagerSingletonPattern;
+import creational.singleton.singleton.LazySingletonPattern;
+import creational.singleton.singleton.ThreadSafeSingleton;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

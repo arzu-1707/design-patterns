@@ -14,4 +14,6 @@ public class CoffeeWithMilk extends DecoratedCoffee {
     public double getPrice() {
        return decoratedCoffee.getPrice() + 1.0 ;
     }
+
+    
 }

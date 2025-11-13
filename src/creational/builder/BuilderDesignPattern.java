@@ -1,10 +1,21 @@
-package builder;
+package creational.builder;
 
 public class BuilderDesignPattern {
     private int id;
     private String stringField;
     private double doubleField;
 
+    public int getId() {
+        return id;
+    }
+
+    public String getStringField() {
+        return stringField;
+    }
+
+    public double getDoubleField() {
+        return doubleField;
+    }
 
     public BuilderDesignPattern(Builder builder){
      this.id = builder.id;
@@ -12,29 +23,6 @@ public class BuilderDesignPattern {
      this.doubleField = builder.doubleField;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getStringField() {
-        return stringField;
-    }
-
-    public void setStringField(String stringField) {
-        this.stringField = stringField;
-    }
-
-    public double getDoubleField() {
-        return doubleField;
-    }
-
-    public void setDoubleField(double doubleField) {
-        this.doubleField = doubleField;
-    }
 
     public static class Builder{
         private int id = 0;
@@ -73,4 +61,18 @@ public class BuilderDesignPattern {
                 '}';}
 }
 
+
+class ForExample{
+    public static void main(String[] args) {
+        BuilderDesignPattern builder = new BuilderDesignPattern.Builder()
+                .stringField("builder design pattern")
+                .doubleField(4.6)
+                .id(1)
+                .build();
+
+        System.out.println(builder.getId()
+        + "  ----   " + builder.getStringField()
+        + "   ----   " + builder.getDoubleField());
+    }
+}
 
