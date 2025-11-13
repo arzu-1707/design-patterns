@@ -1,8 +1,8 @@
 import creational.builder.BuilderDesignPattern;
-import creational.singleton.singleton.DoubleCheckedLockingSingleton;
-import creational.singleton.singleton.EagerSingletonPattern;
-import creational.singleton.singleton.LazySingletonPattern;
-import creational.singleton.singleton.ThreadSafeSingleton;
+import creational.singleton.DoubleCheckedLockingSingleton;
+import creational.singleton.EagerSingletonPattern;
+import creational.singleton.LazySingletonPattern;
+import creational.singleton.ThreadSafeSingleton;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
