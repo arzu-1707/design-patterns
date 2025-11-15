@@ -1,18 +1,19 @@
-package Bridge;
+package structural.bridge;
 
-public class TV implements Device {
+public class Radio implements Device{
+
     private boolean bool =false;
 
     @Override
     public void turnOn() {
         bool = true;
-        System.out.println("TV acildi...");
+        System.out.println("Radio acildi...");
     }
 
     @Override
     public void turnOff() {
-        bool = false;
-        System.out.println("TV sonduruldu...");
+        bool= false;
+        System.out.println("Radio sonduruldu...");
     }
 
     @Override

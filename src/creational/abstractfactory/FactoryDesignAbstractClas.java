@@ -10,8 +10,6 @@ package creational.abstractfactory;
          redSquare.draw().draw();
          redSquare.fill().fill();
      }
-
-
 }
 
 

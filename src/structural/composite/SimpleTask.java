@@ -1,4 +1,4 @@
-package Composite;
+package structural.composite;
 
 public class SimpleTask implements Task{
     private String title;

@@ -1,4 +1,4 @@
-package Composite;
+package structural.composite;
 
 public interface Task {
     String getTitle();

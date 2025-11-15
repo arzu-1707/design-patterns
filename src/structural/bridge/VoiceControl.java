@@ -1,4 +1,4 @@
-package Bridge;
+package structural.bridge;
 
 public class VoiceControl implements Remote{
     private Device device;
