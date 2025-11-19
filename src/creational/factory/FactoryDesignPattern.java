@@ -1,5 +1,10 @@
 package creational.factory;
 
+/*
+    Factory Method pattern — obyektlərin yaradılmasını alt class-lara
+     həvalə edən Creational dizayn nümunəsidir.
+ */
+
 public class FactoryDesignPattern{
 
     public static void main(String[] args) {

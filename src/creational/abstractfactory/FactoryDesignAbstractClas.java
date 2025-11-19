@@ -1,5 +1,8 @@
 package creational.abstractfactory;
-
+/*
+       Abstract Factory — bir-biri ilə əlaqəli obyektlərdən ibarət “ailələri”
+       yaratmaq üçün istifadə olunan creational design pattern-dir.
+ */
  class FactoryDesignAbstractClas {
      public static void main(String[] args) {
          BlueCircle blueCircle = new BlueCircle();

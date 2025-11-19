@@ -4,6 +4,7 @@ package structural.facade;
        ve sade API yaradir. Meselen: komputerin acilmasi ucun CPU, RAM, HDD kimi
        modullar ise dusur. Amma istifadeci yalniz startComputer() cagirir.
        Bu pattern kodu sadelesdirir.
+       Facade pattern kompleks sistemi gizlədir və istifadəçiyə minimum metodlarla idarə etmə imkanı verir.
  */
 
 public class FacadeDesignPattern {
